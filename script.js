@@ -76,6 +76,7 @@ const dice_roll = function () {
 };
 
 const swith_Player = function () {
+  player_1_score = player_2_score = 0;
   displaycurrent_1.textContent = displaycurrent_2.textContent = 0;
   if (main_player === 1) {
     main_player = 2;
